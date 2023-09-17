@@ -9,6 +9,7 @@ import {
 import {loadFont} from '@remotion/google-fonts/Nunito';
 import {z} from 'zod';
 import {EventSchema} from '../../types/schema';
+import {format} from 'date-fns';
 
 const EventDateSchema = z.object({
 	eventDate: EventSchema.shape.eventDate,
@@ -64,7 +65,7 @@ export const EventDate: React.FC<z.infer<typeof EventDateSchema>> = ({
 					fontWeight: 'bold',
 				}}
 			>
-				{eventDate.toDateString()}
+				{format(eventDate, 'dd/MM/yyyy')}
 			</span>
 		</div>
 	);
