@@ -75,7 +75,7 @@ export const Introduction: React.FC = () => {
 							paddingRight: 20,
 						}}
 					>
-						OOS by
+						OSS by
 					</span>
 					<Img
 						src={staticFile('images/logo_zenika_white.png')}

@@ -4,7 +4,7 @@ import {EventSchema} from '../../types/schema';
 export const hacktoberfestOctober18Agences: z.infer<typeof EventSchema> = {
 	eventTitle: 'Building a high gravity community at Gitpod',
 	eventDescription:
-		"Pauline will be delivering a talk about the growing Gitpod community formed around cloud development environments (CDEs) it's humble beginnings to where it's headed. 🇬🇧 Talks in english.",
+		"Pauline will be delivering a talk about the growing Gitpod community formed around cloud development environments (CDEs) it's humble beginnings to where it's headed. 🇬🇧 Talk in english.",
 	eventDate: new Date('2023-10-18T07:39:11.586Z'),
 	eventTime: '18h30 - 20h30',
 	eventLive: true,
