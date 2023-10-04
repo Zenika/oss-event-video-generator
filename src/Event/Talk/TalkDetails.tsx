@@ -37,7 +37,7 @@ export const TalkDetails: React.FC<z.infer<typeof TalkDetailsSchema>> = ({
 	return (
 		<div
 			style={{
-				paddingTop: 100,
+				paddingTop: 50,
 				width: '50%',
 				paddingLeft: 100,
 				display: 'flex',
