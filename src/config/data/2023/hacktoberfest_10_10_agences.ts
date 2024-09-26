@@ -1,5 +1,5 @@
 import {z} from 'zod';
-import {EventSchema} from '../../types/schema';
+import {EventSchema} from '../../../types/schema';
 
 export const hacktoberfestOctober10Agences: z.infer<typeof EventSchema> = {
 	eventTitle: 'Hacktoberfest @Zenika : Framasoft a presque 20 ans. Ce que nous avons appris',

@@ -44,7 +44,21 @@ export const TalkDetails: React.FC<z.infer<typeof TalkDetailsSchema>> = ({
 				flexDirection: 'column',
 			}}
 		>
+			<TalkText eventTitle={eventTitle} eventDescription={eventDescription} />
+
 			<Sequence name="Speaker" layout="none">
+				<div
+					style={{
+						opacity,
+						display: 'flex',
+						alignSelf: 'flex-start',
+						alignItems: 'center',
+						flexDirection: 'row',
+						marginTop: 50,
+						gap: 15
+					}}
+				>
+				
 				{speakers.map((speaker) => (
 					<Avatar
 						imageSrc={speaker.picture}
@@ -52,8 +66,9 @@ export const TalkDetails: React.FC<z.infer<typeof TalkDetailsSchema>> = ({
 						company={speaker.company}
 					/>
 				))}
+				</div>
 			</Sequence>
-			<TalkText eventTitle={eventTitle} eventDescription={eventDescription} />
+
 			<Img
 				src={staticFile('images/logo_zenika.png')}
 				style={{
