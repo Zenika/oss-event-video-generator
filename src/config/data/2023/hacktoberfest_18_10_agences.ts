@@ -1,5 +1,5 @@
 import {z} from 'zod';
-import {EventSchema} from '../../types/schema';
+import {EventSchema} from '../../../types/schema';
 
 export const hacktoberfestOctober18Agences: z.infer<typeof EventSchema> = {
 	eventTitle: 'Building a high gravity community at Gitpod',
@@ -23,7 +23,7 @@ export const hacktoberfestOctober18Agences: z.infer<typeof EventSchema> = {
 			name: 'Pauline Narvas',
 			company: 'Gitpod',
 			picture:
-				'https://pbs.twimg.com/profile_images/1643372492784824320/DeDQxMuo_400x400.jpg',
+				'https://pbs.twimg.com/profile_images/1450357066749644800/GvDZOM_Y_400x400.jpg',
 		},
 	],
 };

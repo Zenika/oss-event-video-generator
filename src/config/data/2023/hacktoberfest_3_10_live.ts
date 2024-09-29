@@ -1,5 +1,5 @@
 import {z} from 'zod';
-import {EventSchema} from '../../types/schema';
+import {EventSchema} from '../../../types/schema';
 
 export const hacktoberfestOctober3Live: z.infer<typeof EventSchema> = {
 	eventTitle: 'Live Hacktoberfest @Zenika',

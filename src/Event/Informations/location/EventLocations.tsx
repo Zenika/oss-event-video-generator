@@ -118,7 +118,7 @@ export const EventLocations: React.FC<z.infer<typeof EventLocationSchema>> = ({
 						{
 							{
 								[EVENT_TYPES.DEFAULT]: locationList,
-								[EVENT_TYPES.LIVE]: 'Événement en ligne',
+								[EVENT_TYPES.LIVE]: 'Rendez-vous sur Youtube et Twitch : https://www.youtube.com/@ZenikaTv/  https://www.twitch.tv/zenikait/',
 								[EVENT_TYPES.WORLD]: 'Événement dans toutes les agences',
 							}[getEventType()]
 						}
