@@ -6,6 +6,7 @@ import {hacktoberfestOctober3Agences} from './data/2023/hacktoberfest_3_10_agenc
 import {hacktoberfestOctober10Agences} from './data/2023/hacktoberfest_10_10_agences';
 import {hacktoberfestOctober8Live} from './data/2024/hacktoberfest_8_10';
 import {hacktoberfestOctober15Live} from './data/2024/hacktoberfest_15_10';
+import {hacktoberfestOctober22Live} from './data/2024/hacktoberfest_22_10';
 
 type CompositionConfigType = {
 	compositionId: string;
@@ -37,4 +38,8 @@ export const compositionsConfig: CompositionConfigType[] = [
 		compositionId: '24-10-15-event-live',
 		compositionDefaultProps: hacktoberfestOctober15Live,
 	},
+	{
+		compositionId: '24-10-22-event-live',
+		compositionDefaultProps: hacktoberfestOctober22Live,
+	}
 ];
