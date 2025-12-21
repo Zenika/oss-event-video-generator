@@ -117,4 +117,4 @@ Get started with Remotion by reading the [fundamentals page](https://www.remotio
 
 ## Help 🆘
 
-If you need help, please contact Mickaël Alves (@CruuzAzul) or the Zenika Open-Source team 💬
+If you need help, please contact Mickaël Alves (@mickaelalvs) or the Zenika Open-Source team 💬
